@@ -1,36 +1,138 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 Rocketshipper
 
-## Getting Started
+A modern, browser-based 2D game built with Next.js and TypeScript, showcasing real-time physics simulation and interactive gameplay.
 
-First, run the development server:
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Next.js 14](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![React 18](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![Rocketshipper](./docs/demo.gif)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎮 Game Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Real-time Physics Engine**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+  - Smooth inertia-based movement system
+  - Precise collision detection
+  - Realistic thrust and rotation mechanics
+  - Boundary management for game area
 
-## Learn More
+- **Particle System**
 
-To learn more about Next.js, take a look at the following resources:
+  - Dynamic thrust particles
+  - Explosion effects on target collision
+  - Visual feedback for player actions
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Game Mechanics**
+  - Score tracking system
+  - Special power-ups (speed boost from stars)
+  - Multiple target types with different rewards
+  - Pause/Resume/Reset functionality
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🛠️ Technical Highlights
 
-## Deploy on Vercel
+- **Modern Tech Stack**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+  - Next.js 14 for optimal performance and routing
+  - React 18 with functional components and hooks
+  - TypeScript for type safety and better developer experience
+  - HTML5 Canvas for efficient game rendering
+  - Tailwind CSS for responsive design
+  - shadcn/ui for polished UI components
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Architecture & Design**
+
+  - Custom React hooks for game logic abstraction
+  - Efficient game loop using requestAnimationFrame
+  - Component-based architecture
+  - State management using React hooks
+  - Responsive layout with Flexbox
+
+- **Performance Optimizations**
+  - Delta time calculations for smooth animations
+  - Optimized rendering with canvas
+  - Efficient collision detection algorithms
+  - Careful management of re-renders
+
+## 🚀 Quick Start
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/rocketshipper.git
+   cd rocketshipper
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   ```
+
+3. Run the development server:
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## 🎮 Game Controls
+
+- **Arrow Keys**: Rotate the rocket
+- **Spacebar**: Apply thrust
+- **P**: Pause/Resume game
+- **R**: Reset game
+
+## 🧪 Technical Implementation Details
+
+The game demonstrates several key technical concepts:
+
+- **Custom Hook System**
+
+  - `useKeyPress`: Manages keyboard input state
+  - `useParticles`: Handles particle system logic
+  - Efficient state management with `useState` and `useCallback`
+
+- **Physics Implementation**
+
+  - Vector-based movement calculations
+  - Frame-rate independent physics using delta time
+  - Optimized collision detection algorithms
+
+- **Rendering Pipeline**
+  - Double buffering for smooth animations
+  - Efficient canvas clearing and redrawing
+  - Particle system optimization
+
+## 🛣️ Roadmap
+
+- [ ] Responsive canvas scaling
+- [ ] Progressive difficulty scaling
+- [ ] Sound effects and background music
+- [ ] Advanced physics (gravity, realistic collisions)
+- [ ] Enhanced visual effects
+- [ ] Multiplayer support
+- [ ] High score leaderboard
+- [ ] Mobile touch controls
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to submit issues and enhancement requests.
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Built with 💻 by [Your Name] - A demonstration of modern web game development practices
