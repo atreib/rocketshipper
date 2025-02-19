@@ -60,7 +60,7 @@ A modern, browser-based 2D game built with Next.js and TypeScript, showcasing re
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/rocketshipper.git
+   git clone https://github.com/atreib/rocketshipper.git
    cd rocketshipper
    ```
 
@@ -114,25 +114,6 @@ The game demonstrates several key technical concepts:
   - Efficient canvas clearing and redrawing
   - Particle system optimization
 
-## 🛣️ Roadmap
-
-- [ ] Responsive canvas scaling
-- [ ] Progressive difficulty scaling
-- [ ] Sound effects and background music
-- [ ] Advanced physics (gravity, realistic collisions)
-- [ ] Enhanced visual effects
-- [ ] Multiplayer support
-- [ ] High score leaderboard
-- [ ] Mobile touch controls
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to submit issues and enhancement requests.
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
 
-Built with 💻 by [Your Name] - A demonstration of modern web game development practices
+Built with 💻 by [André Treib](https://www.andretreib.com/) - A demonstration of modern web development practices
